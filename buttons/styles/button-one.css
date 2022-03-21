@@ -1,0 +1,43 @@
+.buttons__one {
+    position: relative;
+    text-transform: uppercase;
+
+    border: 2px solid #e9d8a6;
+    color: var(--color-primary-light);
+    background-color: hsl(181, 88%, 31%);
+
+    transition: background-color .3s ease-in-out, border .3s ease-in-out;
+}
+
+.buttons__one--dots {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    transition: transform .3s ease-in-out;
+}
+
+.buttons__one--row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons__one--dot {
+    --dot-size: 2px;
+    display: block;
+    width: var(--dot-size);
+    height: var(--dot-size);
+    background-color: var(--color-primary-light);
+}
+
+.buttons__one:hover {
+    background-color: hsl(181, 88%, 41%);
+    border: 2px solid #ffffff80;
+}
+
+.buttons__one:hover .buttons__one--dots {
+    transform: scale(0.9);
+}

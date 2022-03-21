@@ -1,3 +1,10 @@
-body {
-    background-color: var(--color-primary-light);
+@import url(./styles/button-one.css);
+
+.button {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
