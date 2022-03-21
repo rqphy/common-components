@@ -1,0 +1,6 @@
+@import url(./reset.css);
+@import url(./colors.css);
+
+h1 {
+    color: tomato;
+}
