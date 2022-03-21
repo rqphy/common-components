@@ -1,4 +1,15 @@
 @import url(./styles/button-one.css);
+@import url(./styles/button-two.css);
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons > * {
+    margin-bottom: 80px;
+}
 
 .button {
     width: 200px;

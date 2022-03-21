@@ -1,0 +1,31 @@
+.buttons__two {
+	background: none;
+	border: none;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+
+.buttons__two::before, .buttons__two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #000;
+    transition: transform .2s;
+}
+
+.buttons__two::before {
+    transform: translate(-3px, -3px);
+}
+
+.buttons__two::after {
+    transform: translate(3px, 3px);
+}
+
+.buttons__two:hover::before, .buttons__two:hover::after {
+    transform: translate(0);
+}
