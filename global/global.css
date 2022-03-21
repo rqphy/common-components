@@ -1,6 +1,13 @@
 @import url(./reset.css);
 @import url(./colors.css);
+@import url(./font-loader.css);
+@import url(./typos.css);
+
+html {
+    font-size: 10px;
+}
 
 h1 {
+    text-transform: uppercase;
     color: tomato;
 }

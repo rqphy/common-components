@@ -1,0 +1,11 @@
+:root {
+    --font-family: 'Source Code Pro', monospace;
+}
+
+
+.typo-headling-l {
+    font-family: var(--font-family);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
