@@ -3,11 +3,25 @@
 @import url(./font-loader.css);
 @import url(./typos.css);
 
+:root {
+    --padding-large: 160px;
+    --padding-medium: 80px;
+    --padding-small: 20px;
+}
+
 html {
     font-size: 10px;
 }
 
-h1 {
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-large);
+}
+
+header {
+    margin-top: 40px;
     text-transform: uppercase;
     color: tomato;
 }
