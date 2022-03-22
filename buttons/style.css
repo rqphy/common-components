@@ -1,5 +1,6 @@
 @import url(./styles/button-one.css);
 @import url(./styles/button-two.css);
+@import url(./styles/button-three.css);
 
 .buttons {
     display: flex;
@@ -8,7 +9,7 @@
 }
 
 .buttons > * {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .button {
