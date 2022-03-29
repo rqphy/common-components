@@ -32,10 +32,6 @@
     z-index: -5;
 }
 
-.buttons__four:hover p {
-    /* transform: scale(1.1); */
-}
-
 .buttons__four:hover::before {
     transform: translate3d(0, 0, 0);
 }
